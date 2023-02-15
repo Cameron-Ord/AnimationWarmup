@@ -4,8 +4,8 @@ font-size: 1em;
 }
 
 article>img{
-min-width: 40vw;
-min-height: 60vh;
+min-width: 60vw;
+
 max-width: 80vw;
 max-height: 100vh;
 }
