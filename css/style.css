@@ -1,0 +1,124 @@
+body{
+font-size: 1em;
+    font-family: sans-serif;
+}
+
+article>img{
+min-width: 40vw;
+min-height: 60vh;
+max-width: 80vw;
+max-height: 100vh;
+}
+
+
+#page_header{
+    min-height: 10vh;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+justify-items: start;
+display: grid;
+
+}
+
+#nav{
+align-self: center;
+    justify-self: right;
+}
+
+#page_main{
+    min-height: 60vh;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+display: grid;
+
+}
+
+.article_main{
+    text-align: center;
+min-height: 80vh;
+display: grid;
+grid-template-rows: 50px 10vh 50px;
+justify-content: center;
+
+}
+
+
+
+#footer{
+min-height: 10vh;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: grid;
+
+}
+
+.nav_footer{
+    align-items: center;
+justify-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+@media only screen and (min-width: 600px){
+
+    body{
+        font-size: 1em;
+            font-family: sans-serif;
+        }
+        
+        article>img{
+            min-width: 30vw;
+            min-height: 50vh;
+            max-width: 50vw;
+            max-height: 70vh;
+        }
+        
+        
+        #page_header{
+            min-height: 10vh;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            align-items: center;
+        justify-items: start;
+        display: grid;
+        
+        }
+        
+        #nav{
+        align-self: center;
+            justify-self: right;
+        }
+        
+        #page_main{
+            min-height: 60vh;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        display: grid;
+        
+        }
+        
+        .article_main{
+        min-height: 80vh;
+        display: grid;
+        grid-template-rows: 50px 10vh 50px;
+        justify-content: center;
+        
+        }
+        
+        
+        
+        #footer{
+        min-height: 10vh;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            display: grid;
+        
+        }
+        
+        .nav_footer{
+            align-items: center;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        }
+
+
+}
